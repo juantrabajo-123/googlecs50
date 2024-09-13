@@ -1,0 +1,7 @@
+.container-user{
+  display:  grid;
+  justify-items: end;
+  justify-content: end;
+  grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}

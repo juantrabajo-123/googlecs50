@@ -1,7 +1,46 @@
-.container-user{
-  display:  grid;
-  justify-items: end;
-  justify-content: end;
-  grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
-  gap: 10px;
+body{
+  background-color: rgba(32,33,36,1);
+  color: white;
+}
+
+h1{
+  font-size: 60px;
+}
+
+#pmenu {
+  text-align:end;
+  vertical-align: middle;
+  white-space: nowrap ; /* To prevent wrapping of menu items */
+}
+
+.text-hyper-menu{
+  color: white;
+}
+
+.text-hyper-footer{
+  color: white;
+}
+
+
+#img-labs img {
+  vertical-align: middle; /* Vertically center the image */
+  max-height: 1.5em;
+}
+
+#img-user img {
+  vertical-align: middle; /* Vertically center the image */
+  max-height: 1.7em;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+#search{
+  text-align: center;
+  color: white;
+}
+
+#final{
+  display: flexbox;
+  text-align: center;  
 }

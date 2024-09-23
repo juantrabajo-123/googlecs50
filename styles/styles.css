@@ -1,16 +1,25 @@
 body{
   background-color: rgba(32,33,36,1);
   color: white;
+  font-family: Arial sans-serif;
 }
 
 h1{
   font-size: 60px;
 }
 
+a{
+  display: inline;
+  text-decoration-line: none;
+  font-size: 13px;
+  margin: 6px;
+}
+
+
 #pmenu {
   text-align:end;
-  vertical-align: middle;
-  white-space: nowrap ; /* To prevent wrapping of menu items */
+  white-space: nowrap ;
+   /* To prevent wrapping of menu items */
 }
 
 .text-hyper-menu{
@@ -38,6 +47,13 @@ h1{
 #search{
   text-align: center;
   color: white;
+}
+
+#search-bar{
+  width: 250px;
+  margin: auto;
+  border: 1.7px solid #6e6d6d;
+  border-radius: 50px;
 }
 
 #final{

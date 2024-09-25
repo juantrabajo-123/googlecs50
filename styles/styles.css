@@ -44,17 +44,50 @@ a{
   height: 30px;
 }
 
-#search{
+#container{
   text-align: center;
-  color: white;
 }
 
-#search-bar{
-  width: 250px;
-  margin: auto;
-  border: 1.7px solid #6e6d6d;
-  border-radius: 50px;
+#search-zone{
+  height: 28px;
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+  background: transparent;
+  background-color: #444746;
+  padding: 0 8px 0 0;
+  min-height: 44px;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  margin: 0 auto;
+  
 }
+
+.search-bar{
+  background-color: #444746;
+  border: none;
+  min-width: 80px;
+  padding: 0;
+}
+
+
+.search-icone-zone{
+  display: flex;
+}
+
+.search-bar:hover{
+  background-color: #8a8f8d;
+}
+
+#search-zone:hover{
+  background-color: #8a8f8d;
+
+}
+
+.search-icons{
+  height: 15px;
+}
+
 
 #final{
   display: flexbox;
